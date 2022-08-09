@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/> 
+<title>Cody Halovich - Resume</title>
+<link href="css.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="container">
+  <section id="overview">
+    <h1>Cody Halovich</h1>
+    <ul>
+      <li>Vancouver, BC</li>
+      <li><strong>Mobile</strong> 604.862.2117</li>
+      <li><strong>Email</strong> <a href="mailto:cody@sixohquad.com">cody@sixohquad.com</a></li>
+      <li><strong>Twitter</strong> <a href="https://twitter.com/codyhalovich">@codyhalovich</a></li>
+    </ul>
+  </section>
+  <section id="info">
+    <section id="objective">
+        <h2>Objective</h2>
+        <p>Create long-term relationships with clients that utilize my knowledge of cloud technologies, infrastructure automation, and software design principles.</p>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="entry" id="pni">
+        <h3>PNI Digital Media <em>Vancouver, BC</em></h3>
+        <p><strong>Cloud Migration Consultant <em>May 2017 - August 2017</em></strong></p>
+        <ul>
+            <li>All systems defined using PowerShell and AzureRM Templates</li>
+            <li>Architected 3 tier automation of internal and client product networks</li>
+            <li>Automated High-Performance VPN of every network to internal management network</li>
+            <li>Creation of Stateful firewalls for each network in code</li>
+        </ul>
+        <div class="accompli">
+          <h4>Position Accomplishments</h4>
+          <h5>Creation of all internal and client networks in code</h5>
+          <ul>
+              <li>3 Tier approach for automated creation of networks
+                <ul>
+                    <li>All automation completed in PowerShell Workflows</li>
+                    <li>Highest tier defines environments in JSON, passes each environment definition to middle tier</li>
+                    <li>Middle tier receives data from highest tier, gathers information from environment, calls lowest tier</li>
+                    <li>Lowest tier defines individual resources</li>
+                </ul>
+              </li>
+              <li>Routing and VPN between client networks and management network fully automated on creation of each network</li>
+              <li>Stateful firewalls defined in PowerShell Workflows across all networks as part of network deployment</li>
+          </ul>
+          <h5>Defined each VM type in code to integrate with higher level automation systems</h5>
+          <ul>
+              <li>3 tier approach for generating all Virtual Machines</li>
+              <li>Automation includes PowerShell Workflows and AzureRM Templates</li>
+          </ul>
+        </div>
+      </div>
+      <div class="entry" id="hothead">
+        <h3>Hothead Games <em>Vancouver, BC</em></h3>
+        <p><strong>DevOps Engineer (Python, AWS, Docker)<em>July 2015 - January 2017</em></strong></p>
+        <ul>
+          <li>Contributed to architecture, and infrastructure design on Hotheads new communication framework</li>
+          <li>Designed and created software that our team uses to orchestate CloudFormation Stacks in Python</li>
+          <li>Evangelized Python packaging and Automated Testing</li>
+          <li>Created #englnl, a bi-weekly Engineering Lunch n' Learn, which was highly attended by the engineering teams within Hothead</li>
+          <li>Assisted HR with re-creating engineering on-boarding initiatives</li>
+        </ul>
+        <div class="accompli">
+          <h4>Position Accomplishments</h4>
+          <h5>Created Cloud Orchestration Framework</h5>
+          <ul>
+              <li>Designed, wrote, and evangelized software to do python templating and orchestration for AWS Cloudformation</li>
+              <li>Full cloudformation feature adoption, allowing engineers to create in Python instead of JSON</li>
+              <li>Delivers diffs on update to tell you what has changed in your stack</li>
+              <li>Composable to easily adapt, or integrate with smaller modules</li>
+          </ul>
+          <h5>Contributed to high-level architecture for communication framework</h5>
+          <ul>
+              <li>Met companies desire to create live 2-way communication between backend software and mobile clients</li>
+              <li>Created Architecture, built infrastructure in AWS, created deployment pipelines for project</li>
+              <li>Evangelised Microservices, helped drive learning on queuing for communication</li>
+          </ul>
+          <h5>Drove Learning Culture and Engineering Happiness</h5>
+          <ul>
+              <li>Assisted HR with building engineering on-boarding program</li>
+              <li>Created #englnl, a bi-weekly Lunch n' Learn for Engineers (or others interested!)</li>
+              <li>Created Table Tennis Ladder, quarterly tournament, and qualifier for #techpong</li>
+          </ul>
+          <h5>First project in the company with code coverage</h5>
+          <ul>
+              <li>Unit and Integration testing was mostly disregarded at Hothead</li>
+              <li>New Backend framework now carries 85% test coverage</li>
+              <li>Achieved through series of #englnl presentations and evangelizing to studio stakeholders</li>
+          </ul>
+        </div>
+      </div>
+      <div class="entry" id="syseng">
+        <h3>PayByPhone <em>Vancouver, BC</em></h3>
+        <p><strong>Senior Systems Engineer (VMWare & AWS)<em>January 2015 - July 2015</em></strong></p>
+        <ul>
+          <li>Integrated automated build tooling with Octopus and TeamCity for releasing software</li>
+          <li>Introduced Infrastructure Automation in Powershell for Windows Server and VMWare</li>
+          <li>Started and supported on-boarding program for developers</li>
+          <li>Automated deployment of infrastructure for newly planned API's</li>
+        </ul>
+        <div class="accompli">
+          <h4>Position Accomplishments</h4>
+          <h5>Guided company to DevOps culture from Dev and Ops cultures</h5>
+          <ul>
+            <li>Introduced devops, config management, and infrastructure management to development team and leaders</li>
+            <li>Identified and drove interested engineers to adopt DevOps</li>
+            <li>Created tooling to enable developers to embrace DevOps</li>
+            <li>Enabled developers to create and manage infrastructure for their own projects</li>
+          </ul>
+        </div>
+        <div class="accompli">
+          <h5>Replaced Git software and branching strategy</h5>
+          <ul>
+            <li>Replaced basic gitolite server with Git Stash from Atlassian</li>
+            <li>Lobbied for, and had git strategy replaced by dev team, enabling better CI</li>
+            <li>Introduced in-line code reviews as part of CI process</li>
+          </ul>
+        </div>
+      </div>
+      <div class="entry" id="paybyphone">
+        <h3>PayByPhone <em>Vancouver, BC</em></h3>
+        <p><strong>Software Engineer (C#, Python, AWS)<em>September 2014 - December 2014</em></strong></p>
+        <ul>
+          <li>Designed and created software for supporting customer parking business</li>
+          <li>Member of Software Architecture team (Principal + 2 engineers)</li>
+          <li>Began practicing Test Driven Development</li>
+        </ul>
+        <div class="accompli">
+          <h4>Position Accomplishments</h4>
+          <h5>Replaced scheduled reporting system</h5>
+          <ul>
+            <li>Developed new multi-threaded reporting system for running SQL reports</li>
+            <li>Integrated with Quartz Enterprise Scheduler and Oracle Enterprise Database</li>
+          </ul>
+        </div>
+        <div class="accompli">
+          <h5>Created Payment Method API</h5>
+          <ul>
+            <li>Architected Payment Method system with Architecture Group</li>
+            <li>Wrote Payment Method API's</li>
+            <li>Achieved thorough code coverage (85%+)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="entry" id="hootsuite">
+        <h3>HootSuite <em>Vancouver, BC</em></h3>
+        <p><strong>Software Engineer (PHP, Scala, & AWS)<em>July 2013 - September 2014</em></strong></p>
+        <ul>
+          <li>Designed, wrote, and maintained backend and service code for hootsuite.com</li>
+          <li>Wrote tests to ensure functionality of code</li>
+          <li>Contributed to Engineering blog at code.hootsuite.com</li>
+          <li>Member of PHP Guild - Managing PHP Practices and Moving Platform forward</li>
+        </ul>
+        <div class="accompli">
+          <h4>Position Accomplishments</h4>
+          <h5>Replaced multi-terabyte MongoDB cluster with Redis, and TokuMX</h5>
+          <ul>
+            <li>Migrated 300GB of data into new Database Platforms from MongoDB</li>
+	        <li>Evaluated and launched clusters of CouchBase, Redis, TokuMX, and PostgreSQL</li>
+	        <li>Re-wrote features to use new data stores appropriately</li>
+          </ul>
+        </div>
+      </div>
+      <div class="entry" id="soq">
+        <h3>SixOhQuad Media Group <em>Surrey, BC</em></h3>
+        <p><strong>Co-Founder / Lead Developer <em>June 2002 - June 2013</em></strong></p>
+        <ul>
+          <li>Design and build internally used frameworks to build client properties with</li>
+          <li>Ensure all details of project are assigned to the appropriate designers and developers for the projects needs</li>
+          <li>Meet with clients to define scope of work, establish clear project phases, and present any finished materials</li>
+          <li>Follow-up regularly to ensure projects are on-time and on budget</li>
+          <li>Ensure company always meets current design and code standards by scheduling meetings with the team outside of project-work</li>
+          <li>Develop company image, look, and feel</li>
+        </ul>
+        <div class="accompli">
+          <h4>Project Accomplishments</h4>
+          <h5>Metropolitan Hardwood Floors - <a href="http://www.metrofloors.com/">www.metrofloors.com</a> </h5>
+          <ul>
+            <li>Designed and implemented web properties and online cataloging system for a large high-end flooring company.</li>
+          </ul>
+        </div>
+        <div class="accompli">
+          <h5>Matt Hansen, Architect - <a href="http://www.mtharchitect.ca/">www.mtharchitect.ca</a></h5>
+          <ul>
+            <li>Ensured Matt Hansen's competitive edge by creating an elegant, database driven site.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>Abilities</h2>
+      <div class="entry">
+        <dl>
+          <dt>DevOps</dt>
+          <dd>Companies move faster when everything is easily repeatable, and everybody contributes to every system.</dd>
+          <dt>Functional Programming</dt>
+          <dd>Strong understanding of Closures, Callbacks, Promises, Currying, Pure and non-pure functions</dd>
+          <dt>Object Oriented Programming</dt>
+          <dd>I've been writing OO code for 15+ years, Objects spring from my fingertips</dd>
+          <dt>Software Architecture</dt>
+          <dd>From Monoliths, to microservices, to Domain Driven Design, I can speak it</dd>
+          <dt>Scrum/KanBan/Agile</dt>
+          <dd>Organization is important, I am well seasoned in Agile practices.
+        </dl>
+      </div>
+    </section>
+  </section>
+
+</div>
+</body>
+</html>
